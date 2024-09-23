@@ -47,7 +47,7 @@ Object detection dan image classification merupakan dua task computer vision yan
 
 YOLO (You Only Look Once) adalah algoritma object detection yang populer karena kecepatan dan keakuratannya, sehingga memungkinkan object detection secara real-time. YOLO memiliki metode yang memungkinkan untuk melakukan prediksi objek serta bounding box secara sekaligus. Berbeda dengan algoritma lain yang melakukan prediksi secara berulang untuk mendapatkan lokasi objek yang diinginkan didalam gambar. Berikut merupakan tahap-tahap cara kerja dari algoritma YOLO:
     
-![YOLO Algorithm](https://i.ibb.co/xJYTnvT/yolo-algorithm.png)
+![YOLO Algorithm](asset/yolo.png)
 
 1. **Input Image to YOLO Model**
     
@@ -76,4 +76,8 @@ YOLO (You Only Look Once) adalah algoritma object detection yang populer karena 
 YOLOv8 adalah versi terbaru YOLO dari Ultralytics. Sebagai model termutakhir, YOLOv8 mengembangkan versi-versi sebelumnya, memperkenalkan fitur-fitur baru, serta meningkatkan performa dan efisiensi. Berikut dokumentasi YOLOv8 dari Ultralytics : https://docs.ultralytics.com/.
 
 
-Aplikasi object detection pada deteksi senjata dalam video atau gambar merupakan studi kasus yang sangat penting dan relevan, khususnya dalam konteks peningkatan keamanan dan pencegahan tindak kejahatan. Kita akan mengimplementasikan YOLOv8 untuk melakukan deteksi senjata. Dalam konteks projek kali ini dapat digunakan untuk mendeteksi senjata **Celurit**.
+Aplikasi object detection pada deteksi senjata dalam video atau gambar merupakan studi kasus yang sangat penting dan relevan, khususnya dalam konteks peningkatan keamanan dan pencegahan tindak kejahatan. Kita akan mengimplementasikan YOLOv8 untuk melakukan deteksi senjata. Dalam konteks projek kali ini dapat digunakan untuk mendeteksi senjata **Celurit**. 
+
+Berikut contoh bagian dalam video yang menunjukkan model dapat mendeteksi Celurit : 
+
+![Result](asset/result.png)
